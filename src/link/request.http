@@ -1,0 +1,18 @@
+### Create a new link
+
+POST http://localhost:3001/links/
+Content-Type: application/json
+
+{
+    "title": "yahoo",
+    "url": "https://yahoo.com"
+}
+
+### remove a link
+
+DELETE http://localhost:3001/links/1
+
+
+### Get all links
+
+GET http://localhost:3001/links
